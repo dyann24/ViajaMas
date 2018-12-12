@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_name"> ViajaMas </string>
+        <string name = "textView_bienvenida"> Welcome to our travel agency!</string>
+        <string name = "textView_inNom"> To access our travel packages, please enter:</string>
+        <string name = "user"> Username</string>
+        <string name = "password"> Password</string>
+        <string name = "button"> Register</string>
+
+        <string name = "textView2"> Choose your next destination:</string>
+        <string name = "textView21"> Lima</string>
+        <string name = "textView22"> Tarapoto</string>
+        <string name = "textView23"> Piura</string>
+        <string name = "textView24"> Cuzco</string>
+        <string name = "textView25"> Tacna</string>
+        <string name = "BRegresar"> Back</string>
+        
+        <string name = "Bienv"> Welcome, these are our offers!</string>
+        <string name = "caracteristicas"> FEATURES</string>
+        <string name = "precio"> Price: S / 700.00</string>
+        <string name = "duracion"> Duration: 1 day - 1 night</string>
+        <string name = "tipoviaje"> Type of Trip: Terrestrial</string>
+        <string name = "incluye"> Includes: Tour Guide / One night disco</string>
+        <string name = "excluye"> Excludes: Breakfast / Lunch</string>
+        <string name = "BReservar"> Reserve</string>
+        <string name = "RegresarDestinos"> Return Destinations</string>
+        
+        <string name = "preciolima"> Price: S / 570.00</string>
+        <string name = "duracionlima"> Duration: 2 days - 1 night</string>
+        <string name = "tipoviajelima"> Type of Trip: Aerial</string>
+        <string name = "incluyelima"> Includes: Hosting</string>
+        <string name = "excluyelima"> Excludes: Breakfast Lunch</string>
+        
+        <string name = "preciopiura"> Price: S / 449.00</string>
+        <string name = "duracionpiura"> Duration: 1 day - 1 night</string>
+        <string name = "tipoviajepiura"> Type of Trip: Terrestrial</string>
+        <string name = "incluyepiura"> Includes: Lodging / Tourist Guide</string>
+        <string name = "excluyepiura"> Excludes: Breakfast</string>
+        
+        <string name = "preciotacna"> Price: S / 689.00</string>
+        <string name = "duraciontacna"> Duration: 3 days - 2 nights </string>
+        <string name = "tipoviajetacna"> Type of Trip: Terrestrial </string>
+        <string name = "incluyetacna"> Includes: Lodging / Bar </string>
+        <string name = "excluyetacna"> Excludes: Breakfast / Lunch </string>
+
+        <string name = "preciotarapoto"> Price: S / 889.00 </string>
+        <string name = "duraciontarapoto"> Duration: 2 days - 2 nights </string>
+        <string name = "tipoviajetarapoto"> Type of Trip: Air </string>
+        <string name = "incluyetarapoto"> Includes: Lodging / Discotheque </string>
+        <string name = "excluyetarapoto"> Excludes: Drinks </string>
+
+</resources>

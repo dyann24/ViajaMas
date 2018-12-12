@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityPiura">
+
+    <TextView
+        android:id="@+id/piura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="PIURA"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Bienv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/Bienv"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/piura" />
+
+
+    <Button
+        android:id="@+id/RegresarDestinos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="36dp"
+        android:onClick="RegresarDestinos"
+        android:text="@string/RegresarDestinos"
+        app:backgroundTint="#c46d32"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/BReservar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="Reservar"
+        android:text="@string/BReservar"
+        app:backgroundTint="#5c8ebf"
+        app:layout_constraintBottom_toTopOf="@+id/RegresarDestinos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.605" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="202dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bienv"
+        app:srcCompat="@mipmap/piura" />
+
+
+    <LinearLayout
+        android:layout_width="255dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/BReservar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/caracteristicas"
+            android:textAlignment="center"
+            android:textColor="#0b2f76" />
+
+        <TextView
+            android:id="@+id/preciopiura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/preciopiura"
+            android:textColor="#181717" />
+
+        <TextView
+            android:id="@+id/duracionpiura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/duracionpiura"
+            android:textColor="#181717" />
+
+        <TextView
+            android:id="@+id/tipoviajepiura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tipoviajepiura"
+            android:textColor="#181717" />
+
+        <TextView
+            android:id="@+id/incluyepiura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/incluyepiura"
+            android:textColor="#181717" />
+
+        <TextView
+            android:id="@+id/excluyepiura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/excluyepiura"
+            android:textColor="#181717" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

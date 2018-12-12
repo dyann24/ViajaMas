@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">ViajaMas</string>
+    <string name="textView_bienvenida">Bienvenido a nuestra agencia de viajes!</string>
+    <string name="textView_inNom">Para acceder a nuestros paquetes de viaje, por favor ingrese:</string>
+    <string name="user">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="button">Registrar</string>
+
+    <string name="textView2">Escoja su próximo destino:</string>
+    <string name="textView21">Lima</string>
+    <string name="textView22">Tarapoto</string>
+    <string name="textView23">Piura</string>
+    <string name="textView24">Cuzco</string>
+    <string name="textView25">Tacna</string>
+    <string name="BRegresar">Regresar</string>
+
+    <string name="Bienv">Bienvenido, éstas son nuestras ofertas!</string>
+    <string name="caracteristicas">CARACTERÍSTICAS</string>
+    <string name="precio">Precio: S/700.00</string>
+    <string name="duracion">Duración: 1 dia - 1 noche</string>
+    <string name="tipoviaje">Tipo de Viaje: Terrestre</string>
+    <string name="incluye">Incluye: Guia Turìstico/Una noche discoteca</string>
+    <string name="excluye">Excluye: Desayuno/Almuerzo</string>
+    <string name="BReservar">Reservar</string>
+    <string name="RegresarDestinos">Regresar Destinos</string>
+
+    <string name="preciolima">Precio: S/570.00</string>
+    <string name="duracionlima">Duración: 2 dias - 1 noche</string>
+    <string name="tipoviajelima">Tipo de Viaje: Aéreo</string>
+    <string name="incluyelima">Incluye: Hospedaje</string>
+    <string name="excluyelima">Excluye: Desayuno/Almuerzo</string>
+
+    <string name="preciopiura">Precio: S/449.00</string>
+    <string name="duracionpiura">Duración: 1 dias - 1 noche</string>
+    <string name="tipoviajepiura">Tipo de Viaje: Terrestre</string>
+    <string name="incluyepiura">Incluye: Hospedaje/Guìa Turìstico</string>
+    <string name="excluyepiura">Excluye: Desayuno</string>
+
+    <string name="preciotacna">Precio: S/689.00</string>
+    <string name="duraciontacna">Duración: 3 dias - 2 noches</string>
+    <string name="tipoviajetacna">Tipo de Viaje: Terrestre</string>
+    <string name="incluyetacna">Incluye: Hospedaje/Bar</string>
+    <string name="excluyetacna">Excluye: Desayuno/Almuerzo</string>
+
+    <string name="preciotarapoto">Precio: S/889.00</string>
+    <string name="duraciontarapoto">Duración: 2 dias - 2 noches</string>
+    <string name="tipoviajetarapoto">Tipo de Viaje: Aèreo</string>
+    <string name="incluyetarapoto">Hospedaje/Discoteca</string>
+    <string name="excluyetarapoto">Excluye: Bebidas</string>
+
+</resources>
